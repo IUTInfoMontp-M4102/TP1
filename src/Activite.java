@@ -32,10 +32,9 @@ public class Activite {
     public void executer() {
         for (int i = 1; i < nbIterations; i++) {
             System.out.printf("T%d\t%s\n", id, signature);
-//            try {
-//                Thread.sleep(delai);
-//            } catch (InterruptedException e) {}
-//            Thread.yield();
+            try {
+                Thread.sleep(delai);
+            } catch (InterruptedException e) {}
         }
         System.out.printf("Fin de l'activite T%d\n", id);
     }
