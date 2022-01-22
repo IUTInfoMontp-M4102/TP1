@@ -35,7 +35,7 @@ On veut maintenant réaliser un programme organisé en 4 tâches exécutées en 
 |--------------------------------|----------|----------|----------|
 | Création et exécution parallèle<br>des tâches T1, T2, T3 | 30 affichages<br>espacés de 100ms | 30 affichages<br>espacés de 200ms | 10 affichages<br>espacés de 500ms |
 
-1. Regardez le code de la classe `Activite` (fournie dans ce projet).
+1. Regardez le code de la classe `Activite` (fournie dans ce projet, dans le répertoire `/src`).
 2. Écrivez une classe `Ex2Tache` qui hérite de la classe `java.lang.Thread` avec 3 attributs `int id`, `int pause` et `int nbIterations`.
 3. Écrivez la méthode `run()` de la classe `Ex2Tache` qui appelle la méthode `executer` d'une `Activite` initialisée avec les paramètres `id`, `pause` et `nbIterations`. La méthode `run()` doit donc afficher `nbIterations` fois l’identifiant de la tâche et sa trace (cf. classe `Activite`), en faisant une pause d'environ `delai` millisecondes entre deux affichages.
 4. Écrivez un programme `Ex2Main` qui exécute en parallèle les trois tâches `T1`, `T2` et `T3` décrites précédemment (il faut créer 3 objets de type `Ex2Tache` et les exécuter).
