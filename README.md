@@ -4,6 +4,7 @@ Dans ce TD, nous allons voir comment les processus sont exécutés quand on util
 
 **Remarque :** Ce TD servira de base à la plupart des autres TD de programmation parallèle. N’hésitez donc pas à poser des questions pour bien comprendre les différents concepts utilisés et essayez d’écrire un code clair et bien commenté.
 
+Cliquez sur [ce lien](https://classroom.github.com/a/5Q4yfT5a) pour faire un fork privé du TP.
 
 ## Exercice 1: Processus
 
